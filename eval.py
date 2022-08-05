@@ -8,6 +8,8 @@ import argparse
 import torch
 import pandas as pd
 import numpy as np
+from taming.models import cond_transformer, vqgan
+
 
 torch.Tensor.normalize = lambda x: x/x.norm(dim=-1, keepdim=True)
     

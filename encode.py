@@ -8,6 +8,7 @@ from functools import partial
 from tqdm import tqdm
 import pandas as pd
 from pathlib import Path
+from taming.models import cond_transformer, vqgan
 
 # code for encoding the SIMAT database with CLIP
 # produces the files data/simat_img_clip_2.pt and data/simat_words_clip_2.ptd

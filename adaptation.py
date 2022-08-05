@@ -11,7 +11,8 @@ import argparse
 import torchvision.datasets as datasets
 from functools import partial
 import torch
-import clip 
+import clip
+from taming.models import cond_transformer, vqgan 
 
 COCO_ROOT_TRAIN = 'PATH OF COCO TRAIN IMAGES DOWNLOADED'
 COCO_ANN_TRAIN = 'PATH OF CAPTIONS TRAIN ANNOTATIONS JSON FILE'
