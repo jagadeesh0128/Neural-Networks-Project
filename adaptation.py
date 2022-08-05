@@ -13,10 +13,10 @@ from functools import partial
 import torch
 import clip 
 
-COCO_ROOT_TRAIN = '/checkpoint/gcouairon/coco/full'
-COCO_ANN_TRAIN = '/checkpoint/gcouairon/coco/train_annotations.json'
-COCO_ROOT_VAL = '/checkpoint/gcouairon/coco/full'
-COCO_ANN_VAL = '/checkpoint/gcouairon/coco/val_annotations.json'
+COCO_ROOT_TRAIN = 'PATH OF COCO TRAIN IMAGES DOWNLOADED'
+COCO_ANN_TRAIN = 'PATH OF CAPTIONS TRAIN ANNOTATIONS JSON FILE'
+COCO_ROOT_VAL = 'PATH OF COCO VAL IMAGES DOWNLOADED'
+COCO_ANN_VAL = 'PATH OF CAPTIONS VAL ANNOTATIONS JSON FILE'
     
 def main():
     parser = argparse.ArgumentParser(description='Train adaptation layers')
